@@ -39,4 +39,8 @@ addBtn.addEventListener('click', function() {
     contentNewtodo.appendChild(awesomeX);
 
     elementInAcard.appendChild(newTodo);
+
+    awesomeX.addEventListener('click', function() {
+        newTodo.remove('div');
+    })
 })
